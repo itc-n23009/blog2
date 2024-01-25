@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "baseUrl": "."
+=======
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+>>>>>>> chapter3
   }
 }

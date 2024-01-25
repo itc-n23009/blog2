@@ -17,6 +17,7 @@ const Home = () => {
 import Hero from 'components/hero'
 
 const Home = () => {
+<<<<<<< HEAD
   return (
     <Hero
       title='CUBE'
@@ -25,5 +26,8 @@ const Home = () => {
     />
 >>>>>>> chapter2
   )
+=======
+  return <Hero title='CUBE' subtitle='アウトプットしていくサイト' imageOn / >
+>>>>>>> chapter3
 }
 export default Home
