@@ -1,5 +1,6 @@
 import Container from 'components/container'
 import Hero from 'components/hero'
+import PostBody from 'components/post-body'
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
       subtitle='About development activities'
     />
 
+  <PostBody>
     <p>
       Cubeが得意とするものはモノづくりです。３次元から２次元の造形、プログラミングやデザインなど、さまざまな技術を組み合わせることによって社会や環境と結びつけるクリエイティブを提案し続けていきます。
     </p>
@@ -23,6 +25,7 @@ const About = () => {
     <p>
       今までと違うものを作ることで愛着が湧いてきます。そこで興味を持ったことは小さなことでもいいから取り入れて、良いものを作れるようにしています。小さなヒントから新しいものを生み出すようなモノづくりは、これからも続けていきたいです。
     </p>
+  </PostBody>
     </Container>
   )
 }
