@@ -5,9 +5,10 @@
 }
 
 @media (min-width: 768px) {
-  .main{
+  .main {
     width: 768px;
   }
+
   .sidebar{
     width: 240px;
     position: sticky;
