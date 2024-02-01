@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import siteImg from 'images/ogp.jpg'
-import { useRouter } from 'next/router'
 import { siteMeta } from 'lib/constants'
+import { useRouter } from 'next/router'
+import siteImg from 'images/ogp.jpg'
 const {
   siteTitle,
   siteDesc,
@@ -22,7 +22,6 @@ const Meta = ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) => {
   const imgW = pageImgW || siteImg.width
   const imgH = pageImgH || siteImg.height
   const imgUrl = img.startsWith('https') ? img : `${siteUrl}${img}`
-
 
   return (
     <Head>
